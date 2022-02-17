@@ -2,7 +2,8 @@ function compute()
 {
     
     var principal = parseFloat(document.getElementById("principal").value);
-    if(principal<= 0 || principal==""){
+    var prin=document.getElementById("principal");
+    if(principal<= 0 || prin.value.length==0){
         alert("Amount must be greater than 0.");
         document.getElementById("principal").focus();
     }
