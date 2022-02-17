@@ -2,7 +2,7 @@ function compute()
 {
     
     var principal = parseFloat(document.getElementById("principal").value);
-    if(principal<= 0 || principal==NaN){
+    if(principal<= 0 || principal==""){
         alert("Amount must be greater than 0.");
         document.getElementById("principal").focus();
     }
