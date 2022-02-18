@@ -16,9 +16,10 @@ function compute()
     var result= document.getElementById("result");
     var balance=principal + interest;
     if(principal<= 0 || prin.value.length==0){
-        alert("Amount must be greater than 0.");
-        document.getElementById("principal").focus();
         result.innerHTML="";
+        alert("Amount must be greater than 0.");
+        document.getElementById("principal").focus(); 
+        return;  
     }else{
     result.innerHTML=`If you deposit <span class="number">$${principal.toFixed(2)}</span>,<br/>
     at an interest rate of <span class="number">${rate}%</span>,<br/>
