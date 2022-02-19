@@ -23,9 +23,9 @@ function compute()
     }else{
     result.innerHTML=`<span>Deposit:</span><span class="number">$${principal.toFixed(2)}</span>
     <span>Interest rate:</span><span class="number">${rate}%</span>
-    <span>Interest:</span> <span class="number">$${interest.toFixed(2)}</span>
+    <span>Interest:</span><span class="number">$${interest.toFixed(2)}</span>
     <span>Year:</span><span class="number">${year}.</span>
-    <span>Balance:</span><span>$${balance.toFixed(2)}.</span>`;
+    <span>Balance:</span><span class="number">$${balance.toFixed(2)}.</span>`;
     }
 }
         
