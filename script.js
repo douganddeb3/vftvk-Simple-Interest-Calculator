@@ -25,7 +25,7 @@ function compute()
     <span>Interest rate:</span><span class="number">${rate}%</span>
     <span>Interest:</span> <span class="number">$${interest.toFixed(2)}</span>
     <span>Year:</span><span class="number">${year}.</span>
-    <span>Balance:<span><span>$${balance.toFixed(2)}.</span>`;
+    <span>Balance:</span><span>$${balance.toFixed(2)}.</span>`;
     }
 }
         
