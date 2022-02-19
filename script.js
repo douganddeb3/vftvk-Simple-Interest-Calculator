@@ -21,10 +21,10 @@ function compute()
         document.getElementById("principal").focus(); 
         return;  
     }else{
-    result.innerHTML=`<span>Deposit:</span><span class="number">$${principal.toFixed(2)}</span>
-    <span>Interest rate:</span><span class="number">${rate}%</span>
-    <span>Interest:</span><span class="number">$${interest.toFixed(2)}</span>
-    <span>Year:</span><span class="number">${year}.</span>
+    result.innerHTML=`<span>Deposit:</span><span class="number">$${principal.toFixed(2)}</span><br/>
+    <span>Rate:</span><span class="number">${rate}%</span><br/>
+    <span>Interest:</span><span class="number">$${interest.toFixed(2)}</span><br/>
+    <span>Year:</span><span class="number">${year}.</span><br/>
     <span>Balance:</span><span class="number">$${balance.toFixed(2)}.</span>`;
     }
 }
