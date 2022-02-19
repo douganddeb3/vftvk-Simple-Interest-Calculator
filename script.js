@@ -21,12 +21,12 @@ function compute()
         document.getElementById("principal").focus(); 
         return;  
     }else{
-    result.innerHTML=`If you deposit <span class="number">$${principal.toFixed(2)}</span>,<br/>
-    at an interest rate of <span class="number">${rate}%</span>,<br/>
-    you will receive an amount of <span class="number">$${interest.toFixed(2)}</span>, <br/>
-    in the year ${year}.<br/>
-    Your balance in <span class="number">${year}</span><br/>
-    will be <span class="number">$${balance.toFixed(2)}.</span>`;
+    result.innerHTML=`<span class="roww">If you deposit </span><span class="number">$${principal.toFixed(2)}</span>,<br/>
+    <span class="roww">at an interest rate of </span><span class="number">${rate}%</span>,<br/>
+    <span class="roww">you will receive an amount of </span> <span class="number">$${interest.toFixed(2)}</span>, <br/>
+    <span class="roww">in the year </span><span class="number">${year}.</span><br/>
+    <span class="roww">Your balance in </span><span class="number">${year}</span><br/>
+    <span class="roww">will be <span><span class="number">$${balance.toFixed(2)}.</span>`;
     }
 }
         
