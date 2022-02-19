@@ -11,9 +11,9 @@ h1{color:grey;font-family:verdana}
 .number{
     color: red;
 }
-span{
+.roww{
 	width: 100px;
-	display:inline;
+	display:inline-block;
 }
 
 
